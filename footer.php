@@ -8,7 +8,7 @@
                 <div class="footer-logo">
                     <?php include MAIN_ROOT . '/components/logo.php'; // logo.png ?>
                 </div>
-                
+
                 <p class="footer-description">Профессиональное осветительное оборудование для концертных площадок,
                     театров и event-агентств. Качество, надежность, инновации.</p>
                 <div class="footer-social">
@@ -146,7 +146,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 
 <!-- Analytics (placeholder) -->
 <script>
