@@ -14,13 +14,19 @@
    - [x] synhronize 
 - [ ] folder
    - [x] templates
-      - [ ] main
+      - [x] main
    - [ ] assets
       - [ ] js
       - [ ] css
 - [ ] files.php 
-   - [] section 
+   - [ ] section 
       - [x] banner.php
+      - [x] form.php
+      - [ ] catalog.php
+      - [ ] map.php
+      - [ ] global_contact.php
+      - [ ] news.php
+      - [ ] warranty.php
    - [x] header.php
       - [x] mobile_menu.php
    - [x] footer.php
