@@ -24,7 +24,7 @@
       - [x] form.php
       - [x] catalog.php
       - [x] map.php
-      - [ ] global_contact.php
+      - [x] global_contact.php
       - [ ] news.php
       - [ ] warranty.php
    - [x] header.php
