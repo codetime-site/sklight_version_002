@@ -17,7 +17,7 @@
       - [x] main
    - [x] assets
       - [ ] js
-      - [ ] css
+      - [x] css
 - [x] files.php 
    - [x] section connected 
       - [x] banner.php
