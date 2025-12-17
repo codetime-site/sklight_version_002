@@ -27,6 +27,7 @@
       - [x] global_contact.php
       - [ ] news.php
       - [ ] warranty.php
+      - [x] mini_rec.php
    - [x] header.php
       - [x] mobile_menu.php
    - [x] footer.php
