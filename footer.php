@@ -4,12 +4,11 @@
         <div class="footer-grid">
             <!-- Column 1: Logo and Description -->
             <div class="footer-col">
-                <svg class="footer-logo" width="200" height="55" viewBox="0 0 200 55"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <text x="10" y="38" font-family="Montserrat, sans-serif" font-size="36" font-weight="700"
-                        fill="#ffffff">SKlight</text>
-                    <circle cx="180" cy="27" r="10" fill="#0a95c2" opacity="0.8" />
-                </svg>
+
+                <div class="footer-logo">
+                    <?php include MAIN_ROOT . '/components/logo.php'; // logo.png ?>
+                </div>
+                
                 <p class="footer-description">Профессиональное осветительное оборудование для концертных площадок,
                     театров и event-агентств. Качество, надежность, инновации.</p>
                 <div class="footer-social">

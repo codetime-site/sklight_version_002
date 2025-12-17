@@ -13,6 +13,7 @@
    - [x] connected  
    - [x] synhronize 
 - [ ] folder
+   - [x] components
    - [x] templates
       - [x] main
    - [x] assets

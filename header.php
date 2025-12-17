@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-<?php require_once __DIR__ . '/function.php'; ?>
+
+
+<?php // connect function.php 
+require_once __DIR__ . '/function.php'; ?>
 
 <head>
     <meta charset="UTF-8">
@@ -43,9 +46,10 @@
     <!-- HEADER -->
     <header class="header" id="header">
         <div class="header__container">
+
             <a href="/" class="header__logo" aria-label="На главную">
                 <div class="logo">
-                    <img src="<?php echo BASE_URL . 'assets/img/logo.png'?>" alt="">
+                    <?php include MAIN_ROOT . '/components/logo.php'; // logo.png ?>
                 </div>
             </a>
 
