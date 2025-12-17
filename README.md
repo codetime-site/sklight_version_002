@@ -9,14 +9,23 @@
        
 ## 📃 Задачи
 - [x] git 
-   - [x] настройка 
-   - [x] подключение  
-   - [x] синхронизация 
+   - [x] setting 
+   - [x] connected  
+   - [x] synhronize 
+- [ ] folder
+   - [x] templates
+      - [ ] main
+   - [ ] assets
+      - [ ] js
+      - [ ] css
 - [ ] files.php 
-   - [ ] index.php 
+   - [] section 
+      - [x] banner.php
    - [x] header.php
       - [x] mobile_menu.php
-   - [ ] footer.php
+   - [x] footer.php
+
+
 
 ## 📋 Описание проекта
 
@@ -50,6 +59,8 @@ new_Sklight/
 |   │   └── main.js
 │   ├── news/               # Изображения новостей
 │   └── certificates/       # Сертификаты (PDF и превью)
+|── templates/
+|   |──main/
 └── README.md               # Документация
 ```
 
