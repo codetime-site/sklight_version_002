@@ -66,10 +66,10 @@ require_once __DIR__ . '/function.php'; ?>
                             <li><a href="#catalog?filter=led-bar">LED BAR</a></li>
                         </ul>
                     </li>
-                    <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
-                    <li class="nav__item"><a href="#news" class="nav__link">Новости</a></li>
-                    <li class="nav__item"><a href="#warranty" class="nav__link">Гарантия</a></li>
-                    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    <li class="nav__item"><a href="http://sklight.codetime.site/about.php" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="http://sklight.codetime.site/news.php" class="nav__link">Новости</a></li>
+                    <li class="nav__item"><a href="http://sklight.codetime.site/warranty.php" class="nav__link">Гарантия</a></li>
+                    <li class="nav__item"><a href="http://sklight.codetime.site/contact.php" class="nav__link">Контакты</a></li>
                 </ul>
             </nav>
 

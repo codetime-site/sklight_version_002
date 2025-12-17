@@ -58,26 +58,41 @@
             <!-- Certificates Column -->
             <div class="certificates-grid">
                 <div class="certificate-card" data-pdf="#">
-                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=800&fit=crop"
-                        alt="Сертификат соответствия" loading="lazy">
+                    <img src="/assets/img/1-1-scaled.jpg" alt="Сертификат соответствия" loading="lazy">
                     <p>Сертификат соответствия</p>
                 </div>
                 <div class="certificate-card" data-pdf="#">
-                    <img src="https://images.unsplash.com/photo-1554224311-beee460c201f?w=600&h=800&fit=crop"
-                        alt="ISO 9001" loading="lazy">
+                    <img src="/assets/img/1-1-scaled.jpg" alt="ISO 9001" loading="lazy">
                     <p>ISO 9001</p>
                 </div>
                 <div class="certificate-card" data-pdf="#">
-                    <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&h=800&fit=crop"
-                        alt="CE Certificate" loading="lazy">
+                    <img src="/assets/img/1-1-scaled.jpg" alt="CE Certificate" loading="lazy">
                     <p>CE Certificate</p>
                 </div>
                 <div class="certificate-card" data-pdf="#">
-                    <img src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&h=800&fit=crop"
-                        alt="RoHS Compliance" loading="lazy">
+                    <img src="/assets/img/1-1-scaled.jpg" alt="RoHS Compliance" loading="lazy">
+                    <p>RoHS Compliance</p>
+                </div>
+                <div class="certificate-card" data-pdf="#">
+                    <img src="/assets/img/1-1-scaled.jpg" alt="RoHS Compliance" loading="lazy">
+                    <p>RoHS Compliance</p>
+                </div>
+                <div class="certificate-card" data-pdf="#">
+                    <img src="/assets/img/1-1-scaled.jpg" alt="RoHS Compliance" loading="lazy">
                     <p>RoHS Compliance</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<style>
+    .certificates-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .certificate-card img {
+        width: max-content;
+        object-fit: cover;
+    }
+</style>

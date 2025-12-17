@@ -11,7 +11,11 @@
 
 
 <style>
-    .running-line-wrapper{
+    .running-line-wrapper {
         height: 60px;
+    }
+    .running-line:nth-child(odd) {
+        animation-direction: reverse !important;
+        color:red !important;
     }
 </style>

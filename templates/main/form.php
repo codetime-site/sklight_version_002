@@ -7,34 +7,42 @@
                 <h2 class="section__title">Почему выбирают SKlight</h2>
                 <div class="advantages__list">
                     <div class="advantage-card">
-                        <svg class="advantage-card__icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                            <circle cx="24" cy="24" r="20" stroke="#0a95c2" stroke-width="2" />
-                            <path d="M16 24l6 6 12-12" stroke="#0a95c2" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                        <h3 class="advantage-card__title">Гарантия качества</h3>
+                        <div class="advantage__top">
+                            <svg class="advantage-card__icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <circle cx="24" cy="24" r="20" stroke="#0a95c2" stroke-width="2" />
+                                <path d="M16 24l6 6 12-12" stroke="#0a95c2" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                            <h3 class="advantage-card__title">Гарантия качества</h3>
+                        </div>
                         <p class="advantage-card__text">Официальная гарантия на всё оборудование от 2 до 5 лет</p>
                     </div>
                     <div class="advantage-card">
-                        <svg class="advantage-card__icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                            <rect x="8" y="12" width="32" height="24" rx="2" stroke="#0a95c2" stroke-width="2" />
-                            <path d="M16 20h16M16 28h12" stroke="#0a95c2" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                        <h3 class="advantage-card__title">Техподдержка 24/7</h3>
+                        <div class="advantage__top">
+                            <svg class="advantage-card__icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect x="8" y="12" width="32" height="24" rx="2" stroke="#0a95c2" stroke-width="2" />
+                                <path d="M16 20h16M16 28h12" stroke="#0a95c2" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                            <h3 class="advantage-card__title">Техподдержка 24/7</h3>
+                        </div>
                         <p class="advantage-card__text">Круглосуточная поддержка специалистов по всем вопросам</p>
                     </div>
                     <div class="advantage-card">
-                        <svg class="advantage-card__icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                            <path d="M24 8v32M8 24h32" stroke="#0a95c2" stroke-width="2" stroke-linecap="round" />
-                            <circle cx="24" cy="24" r="16" stroke="#0a95c2" stroke-width="2" />
-                        </svg>
-                        <h3 class="advantage-card__title">Доставка по РФ</h3>
+                        <div class="advantage__top">
+                            <svg class="advantage-card__icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M24 8v32M8 24h32" stroke="#0a95c2" stroke-width="2" stroke-linecap="round" />
+                                <circle cx="24" cy="24" r="16" stroke="#0a95c2" stroke-width="2" />
+                            </svg>
+                            <h3 class="advantage-card__title">Доставка по РФ</h3>
+                        </div>
                         <p class="advantage-card__text">Быстрая доставка в любой регион России и СНГ</p>
                     </div>
                     <div class="advantage-card">
-                        <svg class="advantage-card__icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                            <path d="M12 24l8 8 16-16" stroke="#0a95c2" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                        <h3 class="advantage-card__title">Сертификация</h3>
+                        <div class="advantage__top">
+                            <svg class="advantage-card__icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M12 24l8 8 16-16" stroke="#0a95c2" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                            <h3 class="advantage-card__title">Сертификация</h3>
+                        </div>
                         <p class="advantage-card__text">Все сертификаты соответствия и разрешительная документация</p>
                     </div>
                 </div>
@@ -79,3 +87,16 @@
         </div>
     </div>
 </section>
+
+<style>
+    .advantage__top {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 19px;
+    }
+
+    h2.section__title {
+        font-size: 2.5em;
+    }
+</style>

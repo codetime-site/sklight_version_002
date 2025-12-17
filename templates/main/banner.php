@@ -3,7 +3,7 @@
     <div class="swiper product-slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="slide-content" style="background-image: url('assets/products/profile.jpg');">
+                <div class="slide-content" style="background-image: url('/assets/img/bg/Image_20250307114307.webp');">
                     <div class="slide-overlay"></div>
                     <div class="slide-text">
                         <h2 class="slide-title">PROFILE</h2>
@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="slide-content" style="background-image: url('assets/products/bsw.jpg');">
+                <div class="slide-content" style="background-image: url('/assets/img/bg/Image_20250307114423.webp');">
                     <div class="slide-overlay"></div>
                     <div class="slide-text">
                         <h2 class="slide-title">BSW</h2>
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="slide-content" style="background-image: url('assets/products/wash.jpg');">
+                <div class="slide-content" style="background-image: url('/assets/img/bg/Image_20250307114435.webp');">
                     <div class="slide-overlay"></div>
                     <div class="slide-text">
                         <h2 class="slide-title">WASH</h2>
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="slide-content" style="background-image: url('assets/products/beam.jpg');">
+                <div class="slide-content" style="background-image: url('/assets/img/bg/Image_20250307115113.webp');">
                     <div class="slide-overlay"></div>
                     <div class="slide-text">
                         <h2 class="slide-title">BEAM</h2>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="slide-content" style="background-image: url('assets/products/led-par.jpg');">
+                <div class="slide-content" style="background-image: url('/assets/img/bg/Image_20250307115113.webp');">
                     <div class="slide-overlay"></div>
                     <div class="slide-text">
                         <h2 class="slide-title">LED PAR</h2>
@@ -58,3 +58,11 @@
         <div class="swiper-button-next"></div>
     </div>
 </section>
+
+<style>
+    .slide-content {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
