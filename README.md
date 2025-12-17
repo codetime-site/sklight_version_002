@@ -20,6 +20,17 @@
       - [x] css
    - [x] src
       - [x] stylus
+         - [x] main/
+            - [x] banner.styl
+            - [x] form.styl
+            - [x] map.styl
+            - [x] mini_rec.styl
+            - [x] global_contact.styl
+            - [x] news.styl
+            - [x] warranty.styl
+            - [x] catalog.styl
+            - [ ] header.styl
+            - [ ] footer.styl
       - [x] js
 - [x] files.php 
    - [x] section connected 
@@ -35,6 +46,7 @@
    - [x] function.php
       - [x] mobile_menu.php
    - [x] footer.php
+- [ ] connected style.css
 
 
 
