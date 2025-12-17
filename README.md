@@ -16,8 +16,11 @@
    - [x] templates
       - [x] main
    - [x] assets
-      - [ ] js
+      - [x] js
       - [x] css
+   - [ ] src
+      - [ ] stylus
+      - [ ] js
 - [x] files.php 
    - [x] section connected 
       - [x] banner.php
