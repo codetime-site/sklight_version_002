@@ -18,9 +18,9 @@
    - [x] assets
       - [x] js
       - [x] css
-   - [ ] src
-      - [ ] stylus
-      - [ ] js
+   - [x] src
+      - [x] stylus
+      - [x] js
 - [x] files.php 
    - [x] section connected 
       - [x] banner.php
