@@ -25,7 +25,7 @@
       - [x] catalog.php
       - [x] map.php
       - [x] global_contact.php
-      - [ ] news.php
+      - [x] news.php
       - [ ] warranty.php
       - [x] mini_rec.php
    - [x] header.php
