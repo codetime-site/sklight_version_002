@@ -22,7 +22,7 @@
    - [ ] section 
       - [x] banner.php
       - [x] form.php
-      - [ ] catalog.php
+      - [x] catalog.php
       - [ ] map.php
       - [ ] global_contact.php
       - [ ] news.php
