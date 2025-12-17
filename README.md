@@ -15,11 +15,11 @@
 - [ ] folder
    - [x] templates
       - [x] main
-   - [ ] assets
+   - [x] assets
       - [ ] js
       - [ ] css
 - [x] files.php 
-   - [ ] section connected 
+   - [x] section connected 
       - [x] banner.php
       - [x] form.php
       - [x] catalog.php
