@@ -76,3 +76,27 @@
             </button>
         </div>
     </header>
+
+      <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <button class="mobile-menu__close" aria-label="Закрыть меню">✕</button>
+        <nav class="mobile-menu__nav">
+            <ul class="mobile-nav__list">
+                <li class="mobile-nav__item">
+                    <a href="#catalog" class="mobile-nav__link">Вся продукция</a>
+                    <ul class="mobile-nav__submenu">
+                        <li><a href="#catalog?filter=profile">PROFILE</a></li>
+                        <li><a href="#catalog?filter=bsw">BSW</a></li>
+                        <li><a href="#catalog?filter=wash">WASH</a></li>
+                        <li><a href="#catalog?filter=beam">BEAM</a></li>
+                        <li><a href="#catalog?filter=led-par">LED PAR</a></li>
+                        <li><a href="#catalog?filter=led-bar">LED BAR</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-nav__item"><a href="#about" class="mobile-nav__link">О нас</a></li>
+                <li class="mobile-nav__item"><a href="#news" class="mobile-nav__link">Новости</a></li>
+                <li class="mobile-nav__item"><a href="#warranty" class="mobile-nav__link">Гарантия</a></li>
+                <li class="mobile-nav__item"><a href="#contacts" class="mobile-nav__link">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
