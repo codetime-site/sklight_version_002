@@ -27,6 +27,7 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
 </head>
 <body>
     <!-- Skip to main content for accessibility -->
@@ -100,3 +101,4 @@
             </ul>
         </nav>
     </div>
+

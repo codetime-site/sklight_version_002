@@ -18,8 +18,8 @@
    - [ ] assets
       - [ ] js
       - [ ] css
-- [ ] files.php 
-   - [ ] section 
+- [x] files.php 
+   - [ ] section connected 
       - [x] banner.php
       - [x] form.php
       - [x] catalog.php
@@ -29,6 +29,7 @@
       - [x] warranty.php
       - [x] mini_rec.php
    - [x] header.php
+   - [x] function.php
       - [x] mobile_menu.php
    - [x] footer.php
 
