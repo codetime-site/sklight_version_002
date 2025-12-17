@@ -23,7 +23,7 @@
       - [x] banner.php
       - [x] form.php
       - [x] catalog.php
-      - [ ] map.php
+      - [x] map.php
       - [ ] global_contact.php
       - [ ] news.php
       - [ ] warranty.php
