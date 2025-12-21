@@ -1,0 +1,82 @@
+
+/* === WARRANTY SECTION === */
+.warranty-section {
+    background: var(--color-bg-dark);
+}
+
+.warranty-grid {
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    gap: 60px;
+}
+
+@media (max-width: 968px) {
+    .warranty-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+/* Timeline */
+.warranty-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.timeline-icon {
+    flex-shrink: 0;
+}
+
+.timeline-content h3 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--color-accent);
+}
+
+.timeline-content p {
+    font-size: 16px;
+    color: var(--color-text-secondary);
+}
+
+/* Certificates */
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.certificate-card {
+    background: var(--color-bg-secondary);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.certificate-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: var(--glow-effect);
+}
+
+.certificate-card img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+
+.certificate-card p {
+    padding: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--color-text-secondary);
+}

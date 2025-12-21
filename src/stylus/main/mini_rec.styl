@@ -1,0 +1,69 @@
+
+/* === RUNNING LINE SECTION === */
+.running-line-section {
+    padding: 0;
+    background: var(--color-bg-dark);
+}
+
+.running-line-wrapper {
+    position: relative;
+    height: 120px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.running-line {
+    display: flex;
+    position: absolute;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+.running-line-wrapper:hover .running-line {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-33.333%);
+    }
+}
+
+.running-text {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-accent);
+    padding: 0 40px;
+}
+
+.running-line-center {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.running-line-title {
+    font-family: var(--font-heading);
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 0 0 20px var(--color-accent), 0 4px 20px rgba(0, 0, 0, 0.8);
+    transform: rotate(-15deg);
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .running-line-title {
+        font-size: 20px;
+    }
+    
+    .running-text {
+        font-size: 18px;
+    }
+}
