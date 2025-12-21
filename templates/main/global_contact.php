@@ -5,6 +5,10 @@
         <div class="contacts-tabs">
             <button class="tab-btn active" data-tab="china">🇨🇳 Китай</button>
             <button class="tab-btn" data-tab="india">🇮🇳 Индия</button>
+            <button class="tab-btn" data-tab="china">🇨🇳 Китай</button>
+            <button class="tab-btn" data-tab="india">🇮🇳 Индия</button>
+            <button class="tab-btn" data-tab="moscow">🇷🇺 Москва</button>
+            <button class="tab-btn" data-tab="india">🇮🇳 Индия</button>
             <button class="tab-btn" data-tab="moscow">🇷🇺 Москва</button>
         </div>
         <div class="contacts-content">
